@@ -1,0 +1,6 @@
+{
+  "database": "to-dooji",
+  "host": "localhost",
+  "dialect": "postgres",
+  "logging": false
+}

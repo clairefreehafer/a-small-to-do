@@ -1,0 +1,26 @@
+/* hide mark complete and delete buttons by default */
+.task-options {
+	float: right;
+	display: none;
+}
+
+/* show mark complete and delete buttons on hover */
+.list-group-item:hover > .task-options {
+	display: block !important;
+}
+
+/* tasks to be shown when filtering complete/incomplete */
+.show-task {
+	display: block;
+}
+
+/* tasks to be hidden when filtering complete/incomplete */
+.hide-task {
+	display: none;
+}
+
+/* text at bottom of page */
+#tips {
+	color: grey;
+	text-align: center;
+}
