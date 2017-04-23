@@ -1,5 +1,5 @@
 {
-  "database": "to-dooji",
+  "database": "a-small-to-do",
   "host": "localhost",
   "dialect": "postgres",
   "logging": false

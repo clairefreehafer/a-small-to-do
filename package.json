@@ -1,7 +1,7 @@
 {
-  "name": "to-fooji",
+  "name": "a-small-to-do",
   "version": "1.0.0",
-  "description": "First task for Fooji, completed by Claire Freehafer",
+  "description": "a simple to do app",
   "main": "index.js",
   "engines": {
     "node": "7.6.0"
@@ -10,7 +10,7 @@
     "icon": "./public/favicon.ico"
   },
   "scripts": {
-    "db-init": "createdb to-dooji",
+    "db-init": "createdb a-small-to-do",
     "build": "webpack",
     "build-watch": "npm run build -- -w",
     "start": "webpack && node index.js",

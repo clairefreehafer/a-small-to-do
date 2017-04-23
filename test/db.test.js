@@ -13,7 +13,7 @@ describe('Task model', () => {
 	let task;
 	beforeEach(() => {
 		task = Task.build({
-			content: 'complete Fooji task'
+			content: 'finish to do app'
 		});
 	})
 

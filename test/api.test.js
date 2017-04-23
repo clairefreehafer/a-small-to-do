@@ -14,11 +14,11 @@ describe('Task routes', () => {
 	let newTask1, newTask2;
 	beforeEach(() => {
 		newTask1 = {
-			content: 'apply to fooji',
+			content: 'finish to do app!',
 			completed: true
 		};
 		newTask2 = {
-			content: 'finish fooji task!',
+			content: 'take a nap',
 			completed: false
 		};
 
@@ -86,7 +86,7 @@ describe('Task routes', () => {
 	it('PUT successfully updates task', () => {
 		return supertest
 			.put('/api')
-			.send({ content: 'finish fooji task!' })
+			.send({ content: 'take a nap' })
 			.expect(200)
 	})
 })
