@@ -48,7 +48,7 @@ class App extends Component {
 			<div>
 				{/* page header */}
 				<Col xs={12} md={8} lg={6} mdOffset={2} lgOffset={3}>
-					<PageHeader>to-d😏😍ji <small>a simple task management app</small></PageHeader>
+					<PageHeader>a small to-do <small>a simple task management app</small></PageHeader>
 				</Col>
 
 				{/* add new task & filter tasks */}
