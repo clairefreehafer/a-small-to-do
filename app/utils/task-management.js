@@ -1,5 +1,3 @@
-'use strict';
-
 import axios from 'axios';
 
 // fetch tasks from database, used in App component

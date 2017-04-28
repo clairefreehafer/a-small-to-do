@@ -1,5 +1,3 @@
-'use strict';
-
 module.exports = {
   entry: './app/main.jsx',
   output: {

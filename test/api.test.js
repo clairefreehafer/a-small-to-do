@@ -1,5 +1,3 @@
-'use strict'
-
 const supertest = require('supertest-as-promised')(require('../index'));
 const expect = require('chai').expect;
 const db = require('../db/db');

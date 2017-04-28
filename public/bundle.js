@@ -18954,7 +18954,7 @@ var App = function (_Component) {
 					_react2.default.createElement(
 						_reactBootstrap.PageHeader,
 						null,
-						'to-d\uD83D\uDE0F\uD83D\uDE0Dji ',
+						'a small to-do ',
 						_react2.default.createElement(
 							'small',
 							null,
