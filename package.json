@@ -6,9 +6,6 @@
   "engines": {
     "node": "7.6.0"
   },
-  "window": {
-    "icon": "./public/favicon.ico"
-  },
   "scripts": {
     "db-init": "createdb a-small-to-do",
     "build": "webpack",
