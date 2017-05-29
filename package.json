@@ -10,7 +10,7 @@
     "db-init": "createdb a-small-to-do",
     "build": "webpack",
     "build-watch": "npm run build -- -w",
-    "start": "npm run db-init && webpack && node index.js",
+    "start": "node index.js",
     "test": "nodemon --exec 'mocha --reporter spec --timeout 1000 test/*.test.js || true'"
   },
   "author": "",
